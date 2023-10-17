@@ -36,6 +36,10 @@ header {
     text-align: center;
     margin-right: 10PX;
 }
+h3{
+    font-family: 'Bayon', sans-serif;
+    font-size: 50px;
+}
 
 /* Cosas del NAV no entendi */
 nav {
@@ -80,4 +84,17 @@ nav form {
 }
 .lista li{
     margin-right: 20px;
+}
+footer{
+   background-color: #111111 ;
+   
+}
+button{
+    width: 140px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 35px;
 }
