@@ -7,7 +7,7 @@ body {
     display: flex; /* Establece el contenedor como un contenedor flex */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en líneas adicionales si no hay suficiente espacio */
     justify-content: center; /* Centra los elementos a lo largo del eje principal horizontal */
-    margin: 0 100px;/* Margen a la derecha y a la izquierda. El valor 0 es para el margen superior e inferior */
+   
 
 }
 
@@ -21,11 +21,7 @@ header {
     margin-top: 2%;
     margin-right: 0;
 }
-.container-title {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-}
+
 
 .container-image {
     text-align: center;
@@ -39,6 +35,7 @@ header {
 h3{
     font-family: 'Bayon', sans-serif;
     font-size: 50px;
+    margin: 0%;
 }
 
 /* Cosas del NAV no entendi */
@@ -79,7 +76,6 @@ nav form {
 
 
 .lista{
-    display: flex;
     list-style: none;
 }
 .lista li{
@@ -87,7 +83,14 @@ nav form {
 }
 footer{
    background-color: #111111 ;
-   
+   padding: 25px;
+   margin-bottom: 0%;
+   color: white;
+}
+.pie{
+    justify-content:space-between;
+   display: flex;
+   align-items: center;
 }
 button{
     width: 140px;
@@ -97,4 +100,18 @@ button{
     color: white;
     text-transform: uppercase;
     border-radius: 35px;
+    margin-bottom: 25px;
+}
+.redes{
+    padding: 10px;
+    width: 25px;
+}
+.copyright{
+    color: grey;
+    font-size: 12px;
+}
+h4{
+    font-family: 'Bayon', sans-serif;
+    font-size: 25px;
+    margin: 0%;
 }
